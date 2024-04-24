@@ -215,6 +215,7 @@
         app:srcCompat="@drawable/card_back" />
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="129dp"
         android:layout_height="25dp"
         android:text="Memory Dogs!"
@@ -258,9 +259,34 @@
         android:text="Reset"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.303"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.884" />
+
+    <Button
+        android:id="@+id/closeCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="closeCard"
+        android:text="close card"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.696"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.884" />
+
+    <TextView
+        android:id="@+id/WelcomeMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
