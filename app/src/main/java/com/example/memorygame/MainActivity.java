@@ -110,12 +110,12 @@ public class MainActivity extends AppCompatActivity {
                 if (turn.equals("counterPlayer1")) {
                     countPlayer1++;
                     TextView counterTextView = findViewById(R.id.counter1);
-                    counterTextView.setText("P1-" + countPlayer1);
+                    counterTextView.setText("P1- " + countPlayer1);
                     turn = "counterPlayer2";
                 } else {
                     countPlayer2++;
                     TextView counterTextView = findViewById(R.id.counter2);
-                    counterTextView.setText("P2-" + countPlayer2);
+                    counterTextView.setText("P2- " + countPlayer2);
                     turn = "counterPlayer1";
                 }
             } else {
